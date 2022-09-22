@@ -25,3 +25,4 @@ stage('Docker Build and Tag') {
                 sh 'docker build -t samplewebapp:latest .'                               
           }
 }
+}
